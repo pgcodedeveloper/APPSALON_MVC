@@ -1,0 +1,23 @@
+{
+    "name": "pc/app-salon_php_mvc_js_sass",
+    "description": "Proyecto APPSALON",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pablo Gillespie",
+            "email": "pabloemanuelgille@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
